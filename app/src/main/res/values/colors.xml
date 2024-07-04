@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#A7E6FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#5F51FC</color>
+    <color name="gray">#717171</color>
+    <color name="light_blue">#F4F6F9</color>
+    <color name="colorPrimary">#6200EE</color> <!-- Primer boje sa visokim kontrastom -->
+</resources>

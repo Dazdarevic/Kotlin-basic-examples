@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:gravity="bottom"
+    android:padding="26dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/star"/>
+    <TextView
+        android:id="@+id/mojeIme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="beka@gmail.com"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:contentDescription="User email: beka@gmail.com"/>
+
+    <TextView
+        android:id="@+id/mojeIme2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="beka@gmail.com"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/light_blue"
+        android:contentDescription="User email: beka@gmail.com"/>
+
+</LinearLayout>

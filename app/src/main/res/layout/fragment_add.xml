@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp">
+                <TextView
+                    android:id="@+id/id1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="House"
+                    android:text="Schedule"
+                    android:textAlignment="textStart"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/search_icon"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp">
+                <TextView
+                    android:id="@+id/id2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="House"
+                    android:text="This week"
+                    android:textAlignment="textStart"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+                <TextView
+                    android:id="@+id/id3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="House"
+                    android:text="See all..."
+                    android:textAlignment="textStart"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp">
+
+                <TextView
+                    android:id="@+id/id4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="8:00pm"
+                    android:text="8:00am"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:paddingTop="10dp"
+                    tools:ignore="DuplicateIds,MissingConstraints"
+                    tools:layout_editor_absoluteX="-81dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/lin1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@color/blue"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+                    <TextView
+
+                        android:id="@+id/id5222"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="8:00pm"
+                        android:text="Basic mathematics"
+                        android:textAlignment="center"
+                        android:textColor="@color/light_blue"
+                        android:textSize="18sp"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+
+                    <TextView
+
+                        android:id="@+id/id2326"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:contentDescription="8:00sapm"
+                        android:text="8:00am-8.55pm"
+                        android:textAlignment="center"
+                        android:textColor="@color/light_blue"
+                        android:textSize="18sp"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp">
+
+                <TextView
+                    android:id="@+id/id7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="8:00pm"
+                    android:text="10:00am"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:paddingTop="10dp"
+                    tools:ignore="DuplicateIds,MissingConstraints"
+                    tools:layout_editor_absoluteX="-81dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/lin2"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@color/blue"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <TextView
+
+                        android:id="@+id/id8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="8:00pm"
+                        android:text="Science"
+                        android:textAlignment="center"
+                        android:textColor="@color/light_blue"
+                        android:textSize="18sp"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+
+                    <TextView
+
+                        android:id="@+id/id9"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:contentDescription="8:00pm"
+                        android:text="10:00am-11.55am"
+                        android:textAlignment="center"
+                        android:textColor="@color/light_blue"
+                        android:textSize="18sp"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp">
+
+                <TextView
+                    android:id="@+id/id10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="8:00pm"
+                    android:text="12:00am"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:paddingTop="10dp"
+                    tools:ignore="DuplicateIds,MissingConstraints"
+                    tools:layout_editor_absoluteX="-81dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/lin3"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@color/black"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <TextView
+
+                        android:id="@+id/id11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="8:00pm"
+                        android:text="World History"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+
+                    <TextView
+
+                        android:id="@+id/id12"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:contentDescription="8:00pm"
+                        android:text="8:00am-8.55pm"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp">
+
+                <TextView
+                    android:id="@+id/id13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="8:00pm"
+                    android:text="13:00am"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:paddingTop="10dp"
+                    tools:ignore="DuplicateIds,MissingConstraints"
+                    tools:layout_editor_absoluteX="-81dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <LinearLayout
+                    android:id="@+id/lin4"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <TextView
+
+                        android:id="@+id/id5323"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="8:00pm"
+                        android:text="English Grammar"
+                        android:textAlignment="center"
+                        android:textColor="@color/light_blue"
+                        android:textSize="18sp"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+
+                    <TextView
+
+                        android:id="@+id/id6sss"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:contentDescription="8:00pm"
+                        android:text="13:00am-5.55pm"
+                        android:textAlignment="center"
+                        android:textColor="@color/light_blue"
+                        android:textSize="18sp"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

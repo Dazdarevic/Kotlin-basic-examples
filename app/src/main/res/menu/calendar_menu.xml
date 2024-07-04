@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="SUN"
+        android:id="@+id/sun"
+        android:icon="@drawable/baseline_date_range_24" />
+    <item android:title="MON"
+        android:id="@+id/mon"
+        android:icon="@drawable/baseline_date_range_24"
+        />
+    <item android:title="TUE"
+        android:id="@+id/tue"
+        android:icon="@drawable/baseline_date_range_24"
+        />
+    <item android:title="WED"
+        android:id="@+id/wed"
+        android:icon="@drawable/baseline_date_range_24"
+        />
+    <item android:title="THE"
+        android:id="@+id/the"
+        android:icon="@drawable/baseline_date_range_24"
+        />
+    <item android:title="FRI"
+        android:id="@+id/fri"
+        android:icon="@drawable/baseline_date_range_24"
+        />
+    <item android:title="SAT"
+        android:id="@+id/sat"
+        android:icon="@drawable/baseline_date_range_24"
+        />
+</menu>
